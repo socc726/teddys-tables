@@ -14,8 +14,11 @@
 
         <p><%= q.body %></p>
 		
-        <a href="/" class="btn btn-success btn-sm">View Answers</a>
+        <a href="<%= question_path(q) %>" class="btn btn-success btn-sm">View Answers</a>
       </div>
     </div>
+    <% end %>
+    <% if @questions.empty? %>
+      <div class="alert alert-info">No Questions here currently.</div>
     <% end %>
 </div>
