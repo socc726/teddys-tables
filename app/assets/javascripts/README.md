@@ -26,3 +26,5 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+![Alt Text](https://github.com/socc726/teddys-tables/edit/master/app/assets/javascripts/openInIntellij.gif)
